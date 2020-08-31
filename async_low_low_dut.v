@@ -1,3 +1,6 @@
+//Code by Shashank Shivashankar - 08/30/2020
+//Asynchronous active LOW reset and active LOW enable 
+
 module dff4_dut(d, clk, rst, en, q);
 input d, clk, rst, en;
 output q;
