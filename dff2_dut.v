@@ -1,3 +1,7 @@
+//Code by Shashank Shivashankar - 08/28/2020 
+//Asynchronous active HIGH reset and active HIGH enable
+
+
 module dff2_dut(d, clk, rst, en, q);
 input d, clk, rst, en;
 output q;
