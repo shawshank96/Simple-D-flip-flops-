@@ -1,5 +1,5 @@
 //Code by Shashank Shivashankar - 08/28/2020
-//Testbench for sync_high_high_dut.v 
+//Testbench for async_high_high_dut.v 
 
 `timescale 1ns/1ns
 
