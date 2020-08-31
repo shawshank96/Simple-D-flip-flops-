@@ -1,2 +1,3 @@
 # VLSI
-Codes, HWs &amp; Projects from VLSI
+
+Codes of basic digital systems in Verilog and their testbenches
