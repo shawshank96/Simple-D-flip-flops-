@@ -1,3 +1,6 @@
+//Code by Shashank Shivashankar - 08/28/2020
+//Testbench for sync_high_high_dut.v 
+
 `timescale 1ns/1ns
 
 module dff2_tb();
@@ -23,7 +26,7 @@ end
 
 always@(posedge clk)
 begin
-$fmonitor(f,"At time %d ns, CLK = %b, RST = %b, EN = %b, D = %b, Q = %b", $time, clk, rst, en, d, q);
-$display("At time %d ns, CLK = %b, RST = %b, EN = %b, D = %b, Q = %b", $time, clk, rst, en, d, q);
+$fmonitor(f,"At time %d ns, CLK = %b, RST = %b, EN = %b, D = %b, Q = %b", $time, clk, rst, en, d, q);      //Prints the results into a .txt file 
+$display("At time %d ns, CLK = %b, RST = %b, EN = %b, D = %b, Q = %b", $time, clk, rst, en, d, q);         //Prints the results in the command window 
 end
 endmodule
