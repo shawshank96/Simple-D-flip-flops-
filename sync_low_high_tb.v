@@ -1,3 +1,6 @@
+//Code by Shashank Shivashankar - 08/29/2020
+//Test bench for sync_low_high_dut.v
+
 `timescale 1ns/1ns
 
 module dff3_tb();
